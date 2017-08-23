@@ -1,0 +1,473 @@
+/*---------------热门游戏start----------------------*/
+
+
+
+/*--------------游戏测试栏-----------------*/
+#hotGame .hot-ceshi {
+    height: 50px;
+    padding-top:40px;
+}
+#hotGame .hot-ceshi .huan{
+    position: relative;
+    left: 750px;
+    font-size: 15px;
+    color: black;
+}
+#hotGame .hot-ceshi .huan .huan-bg{
+    position: absolute;
+    left: 55px;
+    top: 2px;
+    width: 21px;
+    height: 16px;
+    background: url("../images/index_1_z_b307af4.png") -20px -38px;
+}
+#hotGame .hot-ceshi p{
+    text-indent:15px;
+    border-left: 4px solid #cf1132;
+    font:bold 22px/22px "微软他黑";
+    color: black;
+}
+#hotGame .hot-ceshi .hot-left{
+    float: left;
+}
+#hotGame .hot-ceshi .ceshi-right{
+    float: right;
+    margin-right: 185px;
+}
+
+/*-------左侧--------*/
+#hotGame {
+    background: #f6f7fb;
+    margin-top: 100px;
+}
+#hotGame .bigGame-left{
+    width: 950px;
+    height: 847px;
+    display: inline-block;
+}
+#hotGame .bigGame-left .hot-img {
+    overflow: hidden;
+    position: relative;
+
+}
+#hotGame .game{
+    float: left;
+    width: 300px;
+    height: 318px;
+    background: #fff;
+    margin-bottom: 20px;
+    margin-right: 16px;
+}
+#hotGame .bigGame-left a{
+    padding-right: 20px;
+    text-align: right;
+    display: block;
+    color: #888;
+    font-size: 14px;
+}
+#hotGame .bigGame-left .hot-title{
+    padding-left: 20px;
+    font: 600 19px/30px "微软雅黑";
+    color: #000;
+    margin-bottom: 10px;
+}
+
+#hotGame .bigGame-left .hot-content{
+    padding-left: 20px;
+    padding-right: 20px;
+    font:14px/20px "微软雅黑";
+    color: #ccc;
+    margin-bottom: 15px;
+}
+#hotGame .game .line {
+    display: block;
+    width: 260px;
+    border-bottom: 1px solid #ccc;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+
+#hotGame .bigGame-left .hot-img div{
+    width: 300px;
+    height: 170px;
+    position: absolute;
+    top: -170px;
+    opacity: 0;
+}
+
+#hotGame .bigGame-left .hot-img .hot-hidden1{
+     background: url("../images/c876b87e2eac41998671143d60b87d43.gif");
+ }
+#hotGame .bigGame-left .hot-img .hot-hidden2{
+    background: url("../images/cf8213464ac74d1f9e196f7b8b292898.gif");
+}
+#hotGame .bigGame-left .hot-img .hot-hidden3{
+    background: url("../images/cf8213464ac74d1f9e196f7b8b292898.gif");
+}
+#hotGame .bigGame-left .hot-img .hot-hidden4{
+    background: url("../images/cf8213464ac74d1f9e196f7b8b292898.gif");
+}
+#hotGame .bigGame-left .hot-img .hot-hidden5{
+    background: url("../images/cf8213464ac74d1f9e196f7b8b292898.gif");
+}
+#hotGame .bigGame-left .hot-img .hot-hidden6{
+    background: url("../images/cf8213464ac74d1f9e196f7b8b292898.gif");
+}
+
+
+/*-------热门游戏右侧-----*/
+#hotGame .bigGame-right {
+    width: 290px;
+    height: 655px;
+    background: #fff;
+    float: right;
+    border-top: 0.5px solid #ccc;
+    border-left: 0.5px solid #ccc;
+    border-right: 0.5px solid #ccc;
+}
+#hotGame .bigGame-right li {
+    width: 289px;
+    height: 109px;
+    float: left;
+    border-bottom: 0.5px solid #ccc;
+}
+#hotGame .bigGame-right .newGame {
+    display: block;
+    padding: 20px 42px 0 26px;
+    height: 88px;
+}
+#hotGame .bigGame-right .newGame img{
+    float: left;
+    margin-right: 20px;
+}
+
+#hotGame .bigGame-right .newGame p {
+    float: left;
+}
+#hotGame .bigGame-right .newGame i{
+    color:black;
+    font: bold 18px/20px "微软雅黑";
+
+}
+#hotGame .bigGame-right .newGame .ceshi{
+    display: block;
+    line-height: 25px;
+    color: #ccc;
+}
+#hotGame .bigGame-right .newGame .time{
+    font-size: 13px;
+    text-align: center;
+    display: block;
+    line-height: 25px;
+    color: #ccc;
+
+
+}
+
+/*------------------------------------附加------------------------------------------------------------------*/
+
+
+#hotGame #bigGame2 .game{
+    float: left;
+    width:0px;
+    height: 0px;
+    background: #fff;
+    margin-bottom: 20px;
+    margin-right: 16px;
+}
+#hotGame #bigGame2{
+    display:none;
+}
+
+
+
+
+
+
+
+
+
+/*----------------------------------------附加结束--------------------------------------------------------------*/
+
+
+
+/*---------------热门游戏 end ----------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------游戏列表start-------------*/
+#gameList {
+    height: 866px;
+    background: #fff;
+}
+#gameList h2{
+    font: 600 20px/68px "微软雅黑";
+    float: left;
+    color: black;
+    background: #fbfbfb;
+    padding-left: 40px;
+
+}
+#gameList .leftH2{
+    width: 450px;
+}
+#gameList .rightH2{
+    width: 725px;
+}
+#gameList .gameListLeft{
+    width: 490px;
+    height: 712px;
+    float: left;
+    background: #fff;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+
+#gameList ul li a {
+    color: #666;
+}
+#gameList ul li {
+    width: 138px;
+    height: 28px;
+    float: left;
+    font-size: 16px;
+}
+
+#gameList em{
+    color: #c21d35;
+    font: 700 15px/55px "微软雅黑";
+}
+
+#gameList .gameListLeft .list-left1 {
+    border-right: 1px solid #eee;
+    padding-left: 35px;
+    width: 280px;
+    float: left;
+}
+#gameList .gameListLeft .list-left2{
+    width: 134px;
+    margin-left: 30px;
+    float: left;
+}
+#gameList .hhh {
+    margin-left: 3px;
+    display: inline-block;
+    height: 11px;
+    width: 11px;
+    background: url("../images/topbar_1_z_e7632fe.png") no-repeat -56px -48px;
+}
+#gameList .nnn{
+    margin-left: 3px;
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    background: url("../images/topbar_1_z_e7632fe.png") no-repeat -56px -34px;
+}
+
+#gameList .gameListRight .list-right1{
+    width: 130px;
+    height: 465px;
+    border-right: 1px solid #eee;
+    float: left;
+    margin-left: 30px;
+}
+#gameList .gameListRight {
+    height: 712px;
+}
+#gameList .gameListRight .list-right2{
+    width: 575px;
+    height: 465px;
+    float: left;
+    margin-left: 28px;
+}
+#gameList .gameListRight .list-right2 li {
+    width: 143px;
+}
+
+
+
+    /*==========查看更多============*/
+#more-list{
+    overflow: hidden;
+}
+#gameList .more{
+    margin-top: 30px;
+    margin-left: 500px;
+    display: block;
+    width: 120px;
+    line-height: 40px;
+    background: #f1f1f1;
+    text-align: center;
+    color: #6d6d6d;
+    margin-bottom: 15px;
+}
+
+#gameList .re {
+    margin-top: 5px;
+    position: relative;
+    font: 13px/20px "微软雅黑";
+    color: #6d6d6d;
+    left: 480px;
+}
+#gameList .re em{
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background: url("../images/topbar_1_z_e7632fe.png") no-repeat -56px -48px;
+}
+#gameList .new {
+    font: 13px/20px "微软雅黑";
+    color: #6d6d6d;
+    position: relative;
+    left: 500px;
+    margin-top: 5px;
+}
+#gameList .new em {
+    background: url("../images/topbar_1_z_e7632fe.png") no-repeat -56px -34px;
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+}
+
+    /*----------------------游戏列表start--------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------网页的地步START---------------------*/
+#foot {
+    height: 335px;
+    background: #f6f7fb;
+    width: 100%;
+    padding-top: 35px;
+}
+
+#foot .bx .yxzs div{
+    float: left;
+    height: 200px;
+    margin-right: 7px;
+}
+#foot .bx  .yxzs a{
+    width: 152px;
+    height: 80px;
+    background: #e3e3e3;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    float: left;
+}
+#foot .bx .yxzs p {
+    text-indent: 30px;
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 20px;
+    color: #888;
+    background: url("../images/l-icon_01b84e0.png")no-repeat;
+}
+
+
+/*游戏助手*/
+.gameaide {
+    width: 152px;
+}
+
+.text1{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    margin-left: 30px;
+    margin-top: 13px;
+    margin-bottom: 10px;
+}
+.text2{
+    display: block;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: #868380;
+}
+
+
+/*  ---充值购卡---*/
+.buy{
+    width: 310px;
+}
+
+
+
+
+.secure{
+    width: 152px;
+}
+
+
+
+
+/*辅助工具*/
+.auxiliary{
+    width: 616px;
+}
+
+
+/*-----------客服----------*/
+#foot .bx .service a{
+    font-size: 13px;
+    color: #8e8b88;
+}
+#foot .bx .service li {
+    margin-top: 35px;
+    float: left;
+}
+#foot .bx .service .line {
+    margin-top: 39px;
+    width: 2px;
+    border-left: 1px solid #ccc;
+    height: 13px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+#foot .bx .service p {
+    color: black;
+    margin-top: 40px;
+    float: right;
+}
+#foot .bx .service span{
+    font-size: 14px;
+    color: #868380;
+}
+/*--------------网页的地步 END -----------------*/

@@ -1,0 +1,66 @@
+html, body, h1, h2, h3, h4, h5, h6, div, dl, dt, dd, ul, ol, li, p, blockquote, pre, hr, figure, table, caption, th, td, form, fieldset, legend, input, button, textarea, menu {
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    /*background: #000*/
+}
+
+html, body, fieldset, img, iframe, abbr {
+    border: 0
+}
+
+li {
+    list-style: none
+}
+
+textarea {
+    overflow: auto;
+    resize: none
+}
+
+a, button {
+    cursor: pointer
+}
+
+h1, h2, h3, h4, h5, h6, em, strong, b {
+    font-weight: 700
+}
+
+a, a:hover {
+    text-decoration: none;
+    outline: 0;
+    -moz-outline: 0
+}
+
+body, textarea, input, button {
+    color: #62a1c9
+}
+
+html, body {
+    width: 100%;
+    min-height: 930px;
+    height: auto
+}
+
+.clearfloat:after {
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+    content: "."
+}
+
+.clearfloat {
+    zoom: 1
+}
+
+.bx {
+    width: 1260px;
+    margin: 0 auto;
+}
